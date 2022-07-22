@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HealthStreet</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="hyperlink">Visit GitHub<a href ="https://github.com/doundrum">GitHub</a></string>
+
+</resources>

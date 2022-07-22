@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AboutUs">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D284DF"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="HEALTH STREET MEMBER'S DETAILS"
+        android:textAlignment="center"
+        android:textColor="#CC000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ListView
+
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#EA9B96">
+
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/activity_about_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/listView"
+        android:background="#D1A8EC"
+        android:backgroundTint="#811A93"
+        android:fontFamily="sans-serif-black"
+
+        android:text="@string/hyperlink"
+        android:textAlignment="textStart"
+        android:textColor="#CC000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#BC1717"
+        android:text="Back"
+        app:iconTint="#BC1717"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</RelativeLayout>

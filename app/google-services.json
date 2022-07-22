@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "157157171501",
+    "project_id": "healthstreetproject",
+    "storage_bucket": "healthstreetproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157157171501:android:7d4e53554e8f1dd97b33a4",
+        "android_client_info": {
+          "package_name": "com.example.healthstreet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157157171501-lbnj4h30gt8cmfvulnic1pt95pf278ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmpT7Xval7ddCC39DD2p-znMcRb7WCpBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157157171501-lbnj4h30gt8cmfvulnic1pt95pf278ag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
